@@ -1,0 +1,13 @@
+TKGA para 3DS (.3dsx) - se compila solo en GitHub, sin PC
+
+1) Entra a github.com desde el celular y crea una cuenta gratis (si no tenes).
+2) "New repository" -> nombre: tkga -> Public -> Create.
+3) "uploading an existing file": subi TODO el contenido de esta carpeta
+   (Makefile, la carpeta source/ y la carpeta .github/ con build.yml).
+   Si tu celular no sube carpetas ocultas (.github), crea el archivo a mano:
+   Add file -> Create new file -> escribi  .github/workflows/build.yml  y pega el contenido de build.yml.
+4) Pestana "Actions": se compila solo (2-3 minutos). Cuando tenga el tilde verde, entra a esa corrida
+   y abajo en "Artifacts" descarga  tkga-3dsx  (es un zip con tkga.3dsx).
+5) Copia tkga.3dsx a la tarjeta SD de la 3DS, carpeta  /3ds/tkga/  y abrilo desde el Homebrew Launcher.
+
+Contiene: Sintonia y GWW (Codenames) en modo "pasar la consola". El online no esta (la 3DS no tiene WebRTC).
